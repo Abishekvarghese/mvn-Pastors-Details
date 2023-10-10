@@ -1,0 +1,39 @@
+body {
+    background-image: url("Untitled (2).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+    border: 2px lightblue solid;
+}
+.one {
+    margin-top: 75vh;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    border: 2px lightblue solid;
+    box-shadow: 0 0 20px white ;
+    padding-left: 1vh; 
+    padding-right: 1vh;
+}
+.two {
+    margin-top: 19vh;
+    height: 20vh;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 5vh;
+}
+ @media (width<700px) {
+    body {
+        background-size: 46vh;
+    }
+    .one {
+        margin-top: 18vh;
+    }
+    .two{
+        margin-top: 6vh;
+        font-size: medium;
+    }
+ }
